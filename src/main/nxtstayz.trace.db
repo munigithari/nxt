@@ -1,0 +1,6 @@
+2024-04-25 01:39:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO room(name, type, price, hotelid) VALUES ('C-401','Superior Guest Room'[*]465.00,,2)"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+INSERT INTO room(name, type, price, hotelid) VALUES ('C-401','Superior Guest Room'465.00,,2) [42001-214]
+2024-04-25 02:04:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into room(name, type, price, hotelid) VALUES ('C-401','Superior Guest Room'[*]465.00,,2)"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+insert into room(name, type, price, hotelid) VALUES ('C-401','Superior Guest Room'465.00,,2) [42001-214]

@@ -1,0 +1,3 @@
+2024-04-24 11:34:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOTEL" not found (this database is empty); SQL statement:
+select hotel0_.id as id1_0_, hotel0_.name as name2_0_, hotel0_.location as location3_0_, hotel0_.rating as rating4_0_ from hotel hotel0_ [42104-214]
